@@ -16,6 +16,5 @@ export class FavmovieComponent implements OnInit {
     return this.movieService.deleteMovie(this.favmovieSendByFavMovies).subscribe((res) =>{
       console.log("sucessfully deleted")
     })
-
   }
 }
