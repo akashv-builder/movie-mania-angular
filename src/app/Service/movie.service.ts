@@ -28,9 +28,16 @@ export class MovieService {
   }
 
   showFav() {
-    debugger
-    return this.http.get(App.apiUrl+"movies")
+    return this.http.get(App.apiUrl+"db")
      .map(data => data.json(),
    (error: any)=>this.handleError(error));
    }
+
+   deleteMovie(movieRecievedBymovieComponentToDelete) {
+     debugger
+    return this.http.delete(App.apiUrl+"db", movieRecievedBymovieComponentToDelete)
+     .map(data => data.json(),
+   (error: any)=>this.handleError(error));
+  }
+
 }

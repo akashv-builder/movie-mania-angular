@@ -3,7 +3,8 @@ import { MovieService } from '../../Service/movie.service'
 @Component({
   selector: 'app-favmovies',
   templateUrl: './favmovies.component.html',
-  styleUrls: ['./favmovies.component.css']
+  styleUrls: ['./favmovies.component.css'],
+  providers:[MovieService],
 })
 export class FavmoviesComponent implements OnInit {
   favMoviesList=[];
@@ -13,7 +14,5 @@ export class FavmoviesComponent implements OnInit {
     this.movieService.showFav().subscribe((res) =>{
       this.favMoviesList = res.movies;
   })
-
-
 }
 }

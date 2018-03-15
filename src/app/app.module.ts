@@ -12,7 +12,7 @@ import { MovieComponent } from './Components/movies/movie-list/movie/movie.compo
 import { FavmoviesComponent } from './Components/favmovies/favmovies.component';
 import { FavmovieComponent } from './Components/favmovies/favmovie/favmovie.component';
 import { HttpModule } from '@angular/http';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
