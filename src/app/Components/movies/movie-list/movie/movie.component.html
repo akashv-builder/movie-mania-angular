@@ -1,0 +1,9 @@
+<div class="card">
+    <img class="card-img-top" src="http://image.tmdb.org/t/p/w500/{{movierecievedbymovie.poster_path}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{movierecievedbymovie.title}}</h5>
+      <p class="card-text">{{movierecievedbymovie.overview}}</p>
+      <p class="card-text"><small class="text-muted">{{movierecievedbymovie.release_date}}</small></p>
+      <button type="button" (click)="addMovie(movierecievedbymovie)">Add to Favourite</button>
+    </div>
+  </div>

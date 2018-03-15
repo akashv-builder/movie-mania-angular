@@ -1,0 +1,9 @@
+<div class="card">
+    <img class="card-img-top" src="http://image.tmdb.org/t/p/w500/{{movierecievedbymovie.poster_path}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{favmovieSendByFavMovies.title}}</h5>
+      <p class="card-text">{{favmovieSendByFavMovies.overview}}</p>
+      <p class="card-text"><small class="text-muted">{{favmovieSendByFavMovies.release_date}}</small></p>
+      <button type="button" (click)="deleteMovie(favmovieSendByFavMovies)">Delete From Favourite</button>
+    </div>
+  </div>

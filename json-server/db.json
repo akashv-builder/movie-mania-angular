@@ -1,0 +1,43 @@
+{
+  "movies": [
+    {
+      "vote_count": 1,
+      "id": 243086,
+      "video": false,
+      "vote_average": 2,
+      "title": "Hey Babe!",
+      "popularity": 4.68465,
+      "poster_path": "/ympeXuc5ZRG3eB1p1n6RNOPm2CH.jpg",
+      "original_language": "en",
+      "original_title": "Hey Babe!",
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Every Friday, Abigail religiously consults Madame Lola, a fortune teller. The old shrewd lady takes advantage of Abigail’s extreme grip on superstition by giving her signs about the perfect man for her. Nelson also takes advantage on the situation and paid Madame Lola to give Abigail signs that would make her believe that he is the one for her. Eventually through Nelson’s perseverance, and Madame Lola’s bogus prediction, Abigail started to believe that Nelson is her Mr. Right. But there is no secret that remains uncover.",
+      "release_date": "1999-08-25"
+    },
+    {
+      "vote_count": 0,
+      "id": 464979,
+      "video": false,
+      "vote_average": 0,
+      "title": "Hey Jude",
+      "popularity": 1.904915,
+      "poster_path": "/hEzbdDDcq95DP33W3e6oUpSSUF1.jpg",
+      "original_language": "ml",
+      "original_title": "ഹേയ് ജൂഡ്",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "backdrop_path": "/lhxe4ZWLNLXuOTGBI9c8QDGSPFX.jpg",
+      "adult": false,
+      "overview": "Hey Jude celebrates the innate beautiful things in human beings and life as a whole. For the world, Jude (Nivin Pauly) and his thought processes seem like a puzzle. However, certain unforeseen incidents take him to places he has never been to and experiences beyond his imaginations that help him shed his inhibitions.",
+      "release_date": "2018-02-02"
+    }
+  ]
+}
