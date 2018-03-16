@@ -33,18 +33,11 @@ export class MovieService {
    (error: any)=>this.handleError(error));
    }
 
-   deleteMovie(movieRecievedBymovieComponentToDelete) {
-     debugger
-     var options = new RequestOptions({
-      headers: this.headers,
-      body: {
-        id: movieRecievedBymovieComponentToDelete.id
-      }
-    });
-     
-    return this.http.delete(App.apiUrl+"db", options)
-    .map((response: Response) => {
-      return response.json()
-    })
-  }
+deleteMovie(movieRecievedBymovieComponentToDelete) {
+  debugger
+ return this.http.delete(App.apiUrl+"movies/"+movieRecievedBymovieComponentToDelete.id, { headers: this.headers })
+  .map(data => data.json(),
+(error: any)=>this.handleError(error));
+}
+
 }
