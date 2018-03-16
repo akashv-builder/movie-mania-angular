@@ -1,13 +1,7 @@
-<h1> Search results</h1>
-
-<div *ngFor="let movie of moviesrecievedbymovielist">
-    <div class="container">
+<div class="container">
 	<div class="row">
-            <div class="col-6">
+            <div class="col-4" *ngFor="let movie of moviesrecievedbymovielist">
             <app-movie [movierecievedbymovie]="movie"></app-movie>
             </div>
     </div>
 </div>
-</div>
-
-

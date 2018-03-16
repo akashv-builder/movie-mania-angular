@@ -11,11 +11,12 @@ export class MovieSearchComponent implements OnInit {
   queryMovie:String='';
   public moviesList=[];
   constructor(private movieService : MovieService) { }
-
+  hideVar:boolean=true;
   ngOnInit() {
   }
 
   searchMovie() {
+    this.hideVar=false;
   	this.movieService.searchMovie(this.queryMovie).subscribe((res) =>{
   	this.moviesList = res.results;
   	this.success.emit({

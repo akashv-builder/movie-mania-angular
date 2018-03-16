@@ -1,0 +1,7 @@
+#scroll{
+    overflow-y: scroll;
+    height: 100px;
+}
+#imgsize{
+    height: 400px;
+}

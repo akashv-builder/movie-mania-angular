@@ -34,7 +34,6 @@ export class MovieService {
    }
 
 deleteMovie(movieRecievedBymovieComponentToDelete) {
-  debugger
  return this.http.delete(App.apiUrl+"movies/"+movieRecievedBymovieComponentToDelete.id, { headers: this.headers })
   .map(data => data.json(),
 (error: any)=>this.handleError(error));
