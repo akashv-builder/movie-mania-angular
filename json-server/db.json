@@ -6,7 +6,7 @@
       "video": false,
       "vote_average": 2,
       "title": "Hey Babe!",
-      "popularity": 4.119537,
+      "popularity": 3.333697,
       "poster_path": "/ympeXuc5ZRG3eB1p1n6RNOPm2CH.jpg",
       "original_language": "en",
       "original_title": "Hey Babe!",
@@ -19,81 +19,6 @@
       "adult": false,
       "overview": "Every Friday, Abigail religiously consults Madame Lola, a fortune teller. The old shrewd lady takes advantage of Abigail’s extreme grip on superstition by giving her signs about the perfect man for her. Nelson also takes advantage on the situation and paid Madame Lola to give Abigail signs that would make her believe that he is the one for her. Eventually through Nelson’s perseverance, and Madame Lola’s bogus prediction, Abigail started to believe that Nelson is her Mr. Right. But there is no secret that remains uncover.",
       "release_date": "1999-08-25"
-    },
-    {
-      "vote_count": 85,
-      "id": 17710,
-      "video": false,
-      "vote_average": 5.3,
-      "title": "Hey Arnold! The Movie",
-      "popularity": 6.398398,
-      "poster_path": "/etxcq4qiFNi5p0q71APw8MNzPPT.jpg",
-      "original_language": "en",
-      "original_title": "Hey Arnold! The Movie",
-      "genre_ids": [
-        16,
-        10751
-      ],
-      "backdrop_path": "/bt3xuswluc9AJdkFbCKh4lRcvMd.jpg",
-      "adult": false,
-      "overview": "When a powerful developer named Mr. Scheck wants to knock down all the stores and houses in Arnold's neighborhood to build a huge \"mall-plex\", it looks likes the neighborhood is doomed to disappear. But with the help of a superhero and a mysterious deep-voiced stranger, Arnold and Gerald will need to recover a crucial document in order to save their beloved neighborhood.",
-      "release_date": "2002-06-28"
-    },
-    {
-      "vote_count": 0,
-      "id": 464979,
-      "video": false,
-      "vote_average": 0,
-      "title": "Hey Jude",
-      "popularity": 2.076777,
-      "poster_path": "/hEzbdDDcq95DP33W3e6oUpSSUF1.jpg",
-      "original_language": "ml",
-      "original_title": "ഹേയ് ജൂഡ്",
-      "genre_ids": [
-        18,
-        10749
-      ],
-      "backdrop_path": "/lhxe4ZWLNLXuOTGBI9c8QDGSPFX.jpg",
-      "adult": false,
-      "overview": "Hey Jude celebrates the innate beautiful things in human beings and life as a whole. For the world, Jude (Nivin Pauly) and his thought processes seem like a puzzle. However, certain unforeseen incidents take him to places he has never been to and experiences beyond his imaginations that help him shed his inhibitions.",
-      "release_date": "2018-02-02"
-    },
-    {
-      "vote_count": 5,
-      "id": 169860,
-      "video": false,
-      "vote_average": 4.6,
-      "title": "Hey Bartender",
-      "popularity": 1.761226,
-      "poster_path": "/m7jneeX9RhyNLKLqX3Ox0TJ9RTQ.jpg",
-      "original_language": "en",
-      "original_title": "Hey Bartender",
-      "genre_ids": [
-        99
-      ],
-      "backdrop_path": "/mktNLLHb2LkCdqFA1Ujv2QC7JNL.jpg",
-      "adult": false,
-      "overview": "Two bartenders try to achieve their dreams through bartending. An injured Marine turns his goals to becoming a principal bartender at the best cocktail bar in the world. A young man leaves his white collar job to buy the corner bar in his hometown, and years later he struggles to keep it afloat. Featuring the world's most renowned bartenders and access to the most exclusive bars in New York, this is the story of the comeback of the cocktail and the rebirth of the bartender.",
-      "release_date": "2013-06-07"
-    },
-    {
-      "vote_count": 100,
-      "id": 14831,
-      "video": false,
-      "vote_average": 6.4,
-      "title": "Help!",
-      "popularity": 7.901043,
-      "poster_path": "/lrziqxryaFpneILX7XzPGRx2BUz.jpg",
-      "original_language": "en",
-      "original_title": "Help!",
-      "genre_ids": [
-        35,
-        10402
-      ],
-      "backdrop_path": "/qhpib62efVnZon7yiYaV1hEb2kF.jpg",
-      "adult": false,
-      "overview": "This Beatles film has an obscure Asian cult, that believes in human sacrifice, chasing Ringo after he accidentally put on the their victim's ceremonial ring. He is pursued by the cult, a pair of mad scientists, a member of a side cult that no longer believes in human sacrifice, and the London police who are trying to help.",
-      "release_date": "1965-07-29"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit,Input } from '@angular/core';
-import{MovieService} from '../../../Service/movie.service'
+import{MovieService} from '../../../Service/movie.service';
+import { TMDB } from '../../../Config/tmdb.config';
 @Component({
   selector: 'app-favmovie',
   templateUrl: './favmovie.component.html',
@@ -8,6 +9,7 @@ import{MovieService} from '../../../Service/movie.service'
 })
 export class FavmovieComponent implements OnInit {
 @Input() favmovieSendByFavMovies;
+image_base:string=TMDB.image_base;
   constructor(private movieService:MovieService) { }
 
   ngOnInit() {
