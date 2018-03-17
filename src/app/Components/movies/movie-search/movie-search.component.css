@@ -6282,3 +6282,71 @@ body > * {
   #custom-search-input .glyphicon-search{
       font-size: 23px;
   }
+  .one {
+    font-family: 'Patua One', cursive;
+  }
+  
+  .socialicons {
+    padding-right: 10px;
+  }
+  
+  .carouselimage {
+    height: 500px;
+  }
+  
+  .signin {
+    padding-right: 10px;
+  }
+  
+  .slabo {
+    font-family: 'Slabo 20px', serif;
+    color: white;
+  }
+  
+  .worksans {
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .muli {
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .fira {
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .arvo {
+    font-family: 'Arvo', serif;
+  }
+  
+  .one {
+    font-family: 'Patua One', cursive;
+   
+  }
+  .fontsize {
+    font-size: 4rem;
+  }
+  .rubic {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .rubic1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+  }
+  
+  .grey {
+    color: #2F4F4F;
+  }
+  
+  .quick {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .mon {
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  .fjalla {
+    font-family: 'Fjalla One', sans-serif;
+  }

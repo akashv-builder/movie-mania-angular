@@ -1,8 +1,8 @@
   <div id="cardsize" class="card my-3">
       <img id="imgsize" class="card-img-top" src="http://image.tmdb.org/t/p/w500/{{favmovieSendByFavMovies.poster_path}}" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">{{favmovieSendByFavMovies.title}}</h5>
-        <div id="scroll" class="card-text">{{favmovieSendByFavMovies.overview}}</div>
+        <h5 class="card-title one">{{favmovieSendByFavMovies.title}}</h5>
+        <div id="scroll" class="card-text rubic">{{favmovieSendByFavMovies.overview}}</div>
         <p class="card-text"><small class="text-muted">{{favmovieSendByFavMovies.release_date}}</small></p>
         <button type="button"  class="btn btn-primary" (click)="deleteMovie(favmovieSendByFavMovies)">Delete From Favourite</button>
       </div>
