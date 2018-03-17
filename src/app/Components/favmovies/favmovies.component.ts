@@ -8,15 +8,14 @@ import { MovieService } from '../../Service/movie.service'
 })
 export class FavmoviesComponent implements OnInit {
   favMoviesList=[];
-  hideVar:boolean=true;
+  hideVar:boolean=false;
   constructor(private movieService : MovieService) { }
 
   ngOnInit() {
     this.movieService.showFav().subscribe((res) =>{
       this.favMoviesList = res.movies;
      if(this.favMoviesList!=[]){
-      //this.hideVar=true;
-      console.log("na dikh");
+      this.hideVar=true;
      }
   })
 }
