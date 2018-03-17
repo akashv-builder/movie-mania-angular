@@ -16,9 +16,9 @@ export class MovieComponent implements OnInit {
  // Add favourite movie to database
  addMovie(sendToSaveInDbmovie) {
   this.movieService.addMovie(sendToSaveInDbmovie).subscribe((res) =>{
-    
+    alert("Successfully Added "+this.movierecievedbymovie.title+" to your favourite list.");  
   }, (error) =>{
-console.log(error);
+    alert(""+this.movierecievedbymovie.title+" is already present in your favourite list."););
   })
 }
 }

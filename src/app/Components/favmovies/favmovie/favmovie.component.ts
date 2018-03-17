@@ -14,7 +14,9 @@ export class FavmovieComponent implements OnInit {
   }
   deleteMovie(){
     return this.movieService.deleteMovie(this.favmovieSendByFavMovies).subscribe((res) =>{
-      console.log("sucessfully deleted")
+      alert("Successfully Deleted "+this.favmovieSendByFavMovies.title+" from your favourite list.");
+    },(err)=>{
+      alert(this.favmovieSendByFavMovies.title+"  is already deleted from your favourite list.");
     })
   }
 }
