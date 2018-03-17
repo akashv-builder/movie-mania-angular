@@ -14,7 +14,8 @@ export class FavmoviesComponent implements OnInit {
   ngOnInit() {
     this.movieService.showFav().subscribe((res) =>{
       this.favMoviesList = res.movies;
-     if(this.favMoviesList!=[]){
+      console.log(this.favMoviesList);
+     if(this.favMoviesList.length==0){
       this.hideVar=true;
      }
   })
