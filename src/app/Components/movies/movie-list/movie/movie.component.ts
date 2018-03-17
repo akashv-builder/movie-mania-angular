@@ -8,7 +8,7 @@ import { MovieService } from '../../../../Service/movie.service'
 })
 export class MovieComponent implements OnInit {
   @Input() movierecievedbymovie: any;
-  
+  openModel:boolean=false;
   constructor(private movieService: MovieService) { }
 
   ngOnInit() {
