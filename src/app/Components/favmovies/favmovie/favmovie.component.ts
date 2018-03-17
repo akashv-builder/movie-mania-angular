@@ -21,4 +21,12 @@ image_base:string=TMDB.image_base;
       alert(this.favmovieSendByFavMovies.title+"  is already deleted from your favourite list.");
     })
   }
+
+  modifyMovie(){
+    return this.movieService.modifyMovie(this.favmovieSendByFavMovies).subscribe((res) =>{
+      alert("Successfully changed the movie name from your favourite list.");
+    },(err)=>{
+      alert(this.favmovieSendByFavMovies.title+"  cannot be changed");
+    })
+  }
 }

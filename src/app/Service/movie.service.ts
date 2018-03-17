@@ -9,6 +9,7 @@ export class MovieService {
 
   constructor(private http : Http) { }
   private headers = new Headers({ 'Content-Type': 'application/json'});
+  
   // Function to get search text and make service call to get movies fromTMDB
   searchMovie(gettingQueryFromComponent) {
     return this.http.get(TMDB.search_api+gettingQueryFromComponent)
@@ -38,5 +39,19 @@ deleteMovie(movieRecievedBymovieComponentToDelete) {
   .map(data => data.json(),
 (error: any)=>this.handleError(error));
 }
+
+modifyMovie(movieRecievedBymovieComponentToModify) {
+  var coustomName = prompt("Please enter new movie name", "Name of your choice");
+  var modifiedData={
+    'title':coustomName,
+    'overview':movieRecievedBymovieComponentToModify.overview,
+    'release_date':movieRecievedBymovieComponentToModify.release_date,
+    'poster_path':movieRecievedBymovieComponentToModify.poster_path
+
+  }
+  return this.http.put(App.apiUrl+"movies/"+movieRecievedBymovieComponentToModify.id,modifiedData )
+   .map(data => data.json(),
+ (error: any)=>this.handleError(error));
+ }
 
 }
