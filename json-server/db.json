@@ -1,11 +1,3 @@
 {
-  "movies": [
-    {
-      "title": "mss ki",
-      "overview": "Achan Raajavu Appan Jethavu is a 1995 Indian Malayalam film, directed by Nissar, starring Mukesh and Devayani in the lead roles.",
-      "release_date": "1995-03-27",
-      "poster_path": "/fySs32oEOqLPiQJ5TTxGAdNkk0h.jpg",
-      "id": 359517
-    }
-  ]
+  "movies": []
 }
