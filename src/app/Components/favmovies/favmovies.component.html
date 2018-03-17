@@ -1,12 +1,11 @@
 <div id="margin" class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch" *ngFor="let favmovie of favMoviesList">
+        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4" *ngFor="let favmovie of favMoviesList">
           <app-favmovie [favmovieSendByFavMovies]="favmovie"></app-favmovie>  
         </div>
     </div>
 </div>
   
-
 <div *ngIf="hideVar">
     <div class="jumbotron jumbotron-fluid text-center my-0 mx-0">
           <div class="container">
